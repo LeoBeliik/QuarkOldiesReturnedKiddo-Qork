@@ -1,0 +1,17 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.leobeliik.qork.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "client": [],
+  "server": [],
+  "mixins": [
+    "FrogMixin",
+    "EnchantmentTableBlockMixin",
+    "MatrixEnchantTableMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "qork.refmap.json"
+}
